@@ -60,7 +60,7 @@ The study targets **AMD EPYC 9005 (Zen 5)** processors with AVX-512 VNNI and AVX
 10. **Native BF16/FP16 inference** — `torch.cpu.amp.autocast` hardware paths
 11. **Static INT8 quantisation** — `torch.quantization` prepare/convert via VNNI
 12. **Energy and carbon footprint** — TDP-based and RAPL measurement
-13. **Publication-quality figures** — error bars, heatmaps, energy plots
+13. **figures** — error bars, heatmaps, energy plots
 
 `additions.py` provides three supplementary analyses:
 
